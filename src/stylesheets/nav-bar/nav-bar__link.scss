@@ -1,11 +1,32 @@
 .nav-bar__link {
-  display: inline-block;
-  margin-right: 15px;
-  padding: 8px;
-  color: rgb(4, 100, 253);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 15px;
+  height: 25px;
+  transition: color 0.3s ease;
 
   &--active {
-    background: #222;
-    color: white;
+    background: #E65100;
+    transition: color 0.3s ease;
   }
+
+  &:not(&--active):hover {
+    background: #282828;
+  }
+}
+
+.nav-bar__nolink {
+  color: #747474;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: default;
+  height: min-content;
 }
