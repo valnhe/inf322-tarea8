@@ -1,0 +1,17 @@
+.ofertas-page__search {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    background-color: #1E1E1E;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    color: #fff
+
+}
+
+    .ofertas-page__search::placeholder {
+        color: #ccc; /* Color del texto del placeholder */
+        opacity: 1; /* Asegura que el placeholder sea completamente opaco */
+    }

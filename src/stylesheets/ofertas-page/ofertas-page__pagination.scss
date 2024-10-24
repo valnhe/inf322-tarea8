@@ -1,0 +1,23 @@
+.ofertas-page__pagination {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+    color: #fff;
+
+    button {
+        background-color: transparent;
+        text-decoration:underline;
+        color: #fff;
+        border: none;
+        padding: 8px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    span {
+        width: 150px;
+        text-align: center;
+    }
+}

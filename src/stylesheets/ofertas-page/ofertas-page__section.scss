@@ -1,0 +1,18 @@
+.ofertas-page__section {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+        200px,
+        1fr
+        )
+    );
+    gap: 1rem;
+    align-items: stretch
+}
+
+@media (min-width: 1680px) { /* Ajusta este valor según tus necesidades */
+    .ofertas-page__section {
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+    }
+}
