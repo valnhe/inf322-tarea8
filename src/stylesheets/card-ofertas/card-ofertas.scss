@@ -1,0 +1,42 @@
+.card-ofertas {
+    background-color: #1E1E1E;
+    width: 100%;
+    max-height: max-content;
+
+    border-radius: 8px;
+    color: #fff;
+    padding: 1.2rem 1.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    
+    display: grid;
+    gap: 2.5rem;
+    justify-items: center;
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    h4 {
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    div {
+        align-self: end;
+        width: 100%;
+
+    }
+
+}
