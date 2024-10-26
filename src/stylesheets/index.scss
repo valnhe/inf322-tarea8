@@ -21,10 +21,11 @@ html, body {
 
 p {
   text-wrap: pretty;
-}
-
-h1, h2, h3, h4, p {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5 {
+  text-wrap: balance;
+  margin: 0;
+}
 
