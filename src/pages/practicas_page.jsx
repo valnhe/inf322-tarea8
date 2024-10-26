@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const HomePage = () => {
+export const PracticasPage = () => {
   return (
     <>
       <p>¡Te damos la bienvenida a la Interfaz energética!</p>
@@ -9,4 +9,4 @@ export const HomePage = () => {
   )
 }
 
-export default HomePage
+export default PracticasPage

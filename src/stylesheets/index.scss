@@ -2,9 +2,10 @@
 
 @import './layout/index.scss';
 @import './nav-bar/index.scss';
-@import './lightbulb-page/index.scss';
 @import './card-ofertas/index.scss';
 @import './ofertas-page/index.scss';
+@import './button/index.scss';
+@import './ofertas-details-page/index.scss';
 
 html, body {
   padding: 0;
@@ -19,10 +20,11 @@ html, body {
 
 p {
   text-wrap: pretty;
-}
-
-h3, h4 {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5 {
+  text-wrap: balance;
+  margin: 0;
+}
 
