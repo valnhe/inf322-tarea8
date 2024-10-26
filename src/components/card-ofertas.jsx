@@ -12,8 +12,9 @@ export const CardOfertas = ({Oferta}) => {
       </div>
       
       <div>
-        <h4>{Oferta.ubicacion}</h4>
-        <p>{Oferta.modalidad}</p>
+      {Oferta.tipo.length == 1? <p  className='ubicacion'>{Oferta.tipo[0]}</p> : <p  className='ubicacion'>{Oferta.tipo[0]} - {Oferta.tipo[1]}</p>}
+        <p>{Oferta.ubicacion}</p>
+        <p className='modalidad'>{Oferta.modalidad}</p>
         <Link to={enlacePostular} className='card-ofertas__link'>
           Postular
         </Link>
