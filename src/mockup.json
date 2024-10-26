@@ -1,348 +1,370 @@
 [
-    {
-      "id": 1,
-      "empresa": "Tech Innovators",
-      "modalidad": "Remoto",
-      "ubicacion": "Santiago, Chile",
-      "puesto": "Desarrollador Frontend",
-      "sueldo": "1800000 - 2300000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Responsable del desarrollo y mantenimiento de aplicaciones web.",
-      "preguntas": [
-        "¿Cómo te mantienes actualizado con las nuevas tecnologías frontend?",
-        "Descríbenos un proyecto reciente en el que hayas trabajado.",
-        "¿Cómo manejas el trabajo bajo presión?"
-      ]
-    },
-    {
-      "id": 2,
-      "empresa": "Data Insights Corp",
-      "modalidad": "Híbrido",
-      "ubicacion": "Valparaíso, Chile",
-      "puesto": "Data Science",
-      "sueldo": "2500000 - 3200000 CLP/mensual",
-      "horario": "8:00 - 17:00",
-      "detalles": "Análisis de grandes volúmenes de datos para obtener insights accionables.",
-      "preguntas": [
-        "¿Cuál es tu experiencia con técnicas de machine learning?",
-        "Descríbeme un proyecto de data science en el que hayas trabajado.",
-        "¿Cómo manejas los datos faltantes en un conjunto de datos?"
-      ]
-    },
-    {
-      "id": 3,
-      "empresa": "SoftWare Solutions",
-      "modalidad": "Remoto",
-      "ubicacion": "Concepción, Chile",
-      "puesto": "Desarrollador Backend",
-      "sueldo": "2000000 - 2500000 CLP/mensual",
-      "horario": "9:00 - 17:30",
-      "detalles": "Desarrollo de APIs y servicios backend.",
-      "preguntas": [
-        "¿Qué frameworks de backend has utilizado?",
-        "Descríbeme un desafío técnico que enfrentaste y cómo lo resolviste.",
-        "¿Cómo manejas la escalabilidad en una aplicación backend?"
-      ]
-    },
-    {
-      "id": 4,
-      "empresa": "HealthTech Solutions",
-      "modalidad": "Remoto",
-      "ubicacion": "Viña del Mar, Chile",
-      "puesto": "Ingeniero de Datos",
-      "sueldo": "2200000 - 2800000 CLP/mensual",
-      "horario": "10:00 - 19:00",
-      "detalles": "Diseño y mantenimiento de pipelines de datos.",
-      "preguntas": [
-        "¿Cuál es tu experiencia con herramientas ETL?",
-        "¿Cómo aseguras la calidad de los datos en tus proyectos?",
-        "Descríbeme una situación en la que tuviste que optimizar un pipeline de datos."
-      ]
-    },
-    {
-      "id": 5,
-      "empresa": "E-Commerce Corp",
-      "modalidad": "Híbrido",
-      "ubicacion": "Antofagasta, Chile",
-      "puesto": "Desarrollador Full Stack",
-      "sueldo": "2400000 - 3000000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo y mantenimiento de aplicaciones web completas.",
-      "preguntas": [
-        "¿Qué tecnologías frontend y backend has utilizado?",
-        "Descríbeme un proyecto full stack en el que hayas trabajado.",
-        "¿Cómo manejas la integración de frontend y backend?"
-      ]
-    },
-    {
-      "id": 6,
-      "empresa": "BankTech",
-      "modalidad": "Presencial",
-      "ubicacion": "Santiago, Chile",
-      "puesto": "Arquitecto de Software",
-      "sueldo": "3000000 - 4000000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Diseño de arquitectura de sistemas y supervisión de su implementación.",
-      "preguntas": [
-        "¿Cuál es tu experiencia en diseño de arquitectura de software?",
-        "Descríbeme un desafío arquitectónico que enfrentaste y cómo lo resolviste.",
-        "¿Cómo te aseguras de que una arquitectura sea escalable y mantenible?"
-      ]
-    },
-    {
-      "id": 7,
-      "empresa": "FinTech Innovators",
-      "modalidad": "Remoto",
-      "ubicacion": "Valdivia, Chile",
-      "puesto": "Ingeniero DevOps",
-      "sueldo": "2600000 - 3200000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Automatización de procesos y mantenimiento de infraestructura en la nube.",
-      "preguntas": [
-        "¿Qué herramientas de CI/CD has utilizado?",
-        "Descríbeme un proyecto en el que hayas implementado una solución DevOps.",
-        "¿Cómo manejas la seguridad en un entorno DevOps?"
-      ]
-    },
-    {
-      "id": 8,
-      "empresa": "BioTech Solutions",
-      "modalidad": "Híbrido",
-      "ubicacion": "Talca, Chile",
-      "puesto": "Analista de Datos",
-      "sueldo": "2200000 - 2800000 CLP/mensual",
-      "horario": "8:00 - 17:00",
-      "detalles": "Análisis de datos para la toma de decisiones estratégicas.",
-      "preguntas": [
-        "¿Qué herramientas de análisis de datos has utilizado?",
-        "Descríbeme un proyecto de análisis de datos en el que hayas trabajado.",
-        "¿Cómo presentas tus hallazgos a personas no técnicas?"
-      ]
-    },
-    {
-      "id": 9,
-      "empresa": "EduTech Innovators",
-      "modalidad": "Remoto",
-      "ubicacion": "Arica, Chile",
-      "puesto": "Desarrollador de Aplicaciones Móviles",
-      "sueldo": "2300000 - 2900000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo y mantenimiento de aplicaciones móviles para plataformas iOS y Android.",
-      "preguntas": [
-        "¿Qué lenguajes de programación móviles has utilizado?",
-        "Descríbeme un proyecto de aplicaciones móviles en el que hayas trabajado.",
-        "¿Cómo manejas la compatibilidad entre diferentes versiones de SO móvil?"
-      ]
-    },
-    {
-      "id": 10,
-      "empresa": "GreenTech Solutions",
-      "modalidad": "Híbrido",
-      "ubicacion": "Temuco, Chile",
-      "puesto": "Ingeniero de Software",
-      "sueldo": "2500000 - 3200000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo de software para soluciones ecológicas y sostenibles.",
-      "preguntas": [
-        "¿Qué metodologías ágiles has utilizado?",
-        "Descríbeme un proyecto de software en el que hayas trabajado.",
-        "¿Cómo manejas los requisitos cambiantes en un proyecto de software?"
-      ]
-    },
-    {
-      "id": 11,
-      "empresa": "CloudTech Services",
-      "modalidad": "Remoto",
-      "ubicacion": "Puerto Montt, Chile",
-      "puesto": "Ingeniero de Nube",
-      "sueldo": "2700000 - 3300000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Implementación y mantenimiento de soluciones en la nube.",
-      "preguntas": [
-        "¿Qué proveedores de servicios en la nube has utilizado?",
-        "Descríbeme un proyecto en la nube en el que hayas trabajado.",
-        "¿Cómo aseguras la disponibilidad y la seguridad en la nube?"
-      ]
-    },
-    {
-      "id": 12,
-      "empresa": "CyberSecurity Ltd.",
-      "modalidad": "Híbrido",
-      "ubicacion": "Iquique, Chile",
-      "puesto": "Especialista en Seguridad Informática",
-      "sueldo": "2800000 - 3500000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Protección de sistemas y datos contra amenazas de seguridad.",
-      "preguntas": [
-        "¿Cuál es tu experiencia con herramientas de seguridad informática?",
-        "Descríbeme un incidente de seguridad que hayas manejado.",
-        "¿Cómo mantienes tus conocimientos actualizados en seguridad informática?"
-      ]
-    },
-    {
-      "id": 13,
-      "empresa": "AI Innovations",
-      "modalidad": "Remoto",
-      "ubicacion": "La Serena, Chile",
-      "puesto": "Ingeniero de Machine Learning",
-      "sueldo": "3000000 - 3700000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo y entrenamiento de modelos de machine learning.",
-      "preguntas": [
-        "¿Qué frameworks de machine learning has utilizado?",
-        "Descríbeme un proyecto de machine learning en el que hayas trabajado.",
-        "¿Cómo manejas el overfitting en tus modelos?"
-      ]
-    },
-    {
-      "id": 14,
-      "empresa": "IoT Solutions",
-      "modalidad": "Híbrido",
-      "ubicacion": "Rancagua, Chile",
-      "puesto": "Desarrollador IoT",
-      "sueldo": "2400000 - 3000000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo de soluciones IoT para la industria.",
-      "preguntas": [
-        "¿Qué protocolos de comunicación IoT has utilizado?",
-        "Descríbeme un proyecto IoT en el que hayas trabajado.",
-        "¿Cómo manejas la seguridad en dispositivos IoT?"
-      ]
-    },
-    {
-      "id": 15,
-      "empresa": "Blockchain Innovators",
-      "modalidad": "Remoto",
-      "ubicacion": "Copiapó, Chile",
-      "puesto": "Desarrollador Blockchain",
-      "sueldo": "2600000 - 3300000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo de soluciones basadas en blockchain.",
-      "preguntas": [
-        "¿Qué plataformas de blockchain has utilizado?",
-        "Descríbeme un proyecto de blockchain en el que hayas trabajado.",
-        "¿Cómo manejas la escalabilidad en una solución blockchain?"
-      ]
-    },
-    {
-      "id": 16,
-      "empresa": "SmartTech",
-      "modalidad": "Híbrido",
-      "ubicacion": "Punta Arenas, Chile",
-      "puesto": "Desarrollador de Software Embebido",
-      "sueldo": "2300000 - 2900000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo de software para dispositivos embebidos.",
-      "preguntas": [
-        "¿Qué lenguajes de programación para software embebido has utilizado?",
-        "Descríbeme un proyecto de software embebido en el que hayas trabajado.",
-        "¿Cómo manejas las limitaciones de hardware en dispositivos embebidos?"
-      ]
-    },
-    {
-      "id": 17,
-      "empresa": "Quantum Computing Solutions",
-      "modalidad": "Remoto",
-      "ubicacion": "Santiago, Chile",
-      "puesto": "Investigador en Computación Cuántica",
-      "sueldo": "3500000 - 4500000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Investigación y desarrollo en el campo de la computación cuántica.",
-      "preguntas": [
-        "¿Qué experiencia tienes en algoritmos cuánticos?",
-        "Descríbeme un proyecto de investigación en computación cuántica en el que hayas trabajado.",
-        "¿Cómo crees que la computación cuántica impactará la industria en el futuro?"
-      ]
-    },
-    {
-      "id": 18,
-      "empresa": "AgriTech Solutions",
-      "modalidad": "Híbrido",
-      "ubicacion": "Chillán, Chile",
-      "puesto": "Ingeniero de Software para Agricultura",
-      "sueldo": "2200000 - 2800000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo de software para soluciones agrícolas inteligentes.",
-      "preguntas": [
-        "¿Qué tecnologías has utilizado en proyectos de agrotecnología?",
-        "Descríbeme un proyecto de software para agricultura en el que hayas trabajado.",
-        "¿Cómo manejas la integración de hardware y software en soluciones agrícolas?"
-      ]
-    },
-    {
-      "id": 19,
-      "empresa": "Bioinformatics Corp",
-      "modalidad": "Remoto",
-      "ubicacion": "Valparaíso, Chile",
-      "puesto": "Bioinformático",
-      "sueldo": "2800000 - 3500000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Análisis de datos biológicos utilizando técnicas informáticas.",
-      "preguntas": [
-        "¿Qué experiencia tienes en análisis de secuencias biológicas?",
-        "Descríbeme un proyecto de bioinformática en el que hayas trabajado.",
-        "¿Cómo manejas la calidad y la integridad de los datos biológicos?"
-      ]
-    },
-    {
-      "id": 20,
-      "empresa": "Gaming Innovators",
-      "modalidad": "Híbrido",
-      "ubicacion": "Santiago, Chile",
-      "puesto": "Desarrollador de Videojuegos",
-      "sueldo": "2400000 - 3000000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo y mantenimiento de videojuegos para múltiples plataformas.",
-      "preguntas": [
-        "¿Qué motores de videojuegos has utilizado?",
-        "Descríbeme un proyecto de videojuegos en el que hayas trabajado.",
-        "¿Cómo manejas la optimización del rendimiento en videojuegos?"
-      ]
-    },
-    {
-      "id": 21,
-      "empresa": "Robotics Corp",
-      "modalidad": "Remoto",
-      "ubicacion": "Temuco, Chile",
-      "puesto": "Ingeniero de Robótica",
-      "sueldo": "3000000 - 3700000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo y programación de robots para diversas aplicaciones.",
-      "preguntas": [
-        "¿Qué lenguajes de programación para robótica has utilizado?",
-        "Descríbeme un proyecto de robótica en el que hayas trabajado.",
-        "¿Cómo manejas la integración de sensores y actuadores en robots?"
-      ]
-    },
-    {
-      "id": 22,
-      "empresa": "EnergyTech Solutions",
-      "modalidad": "Híbrido",
-      "ubicacion": "Calama, Chile",
-      "puesto": "Ingeniero de Software para Energía",
-      "sueldo": "2600000 - 3200000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo de software para soluciones de energía renovable.",
-      "preguntas": [
-        "¿Qué experiencia tienes en proyectos de energía renovable?",
-        "Descríbeme un proyecto de software para energía en el que hayas trabajado.",
-        "¿Cómo manejas la integración de datos de múltiples fuentes en soluciones de energía?"
-      ]
-    },
-    {
-      "id": 23,
-      "empresa": "SmartHome Technologies",
-      "modalidad": "Remoto",
-      "ubicacion": "Santiago, Chile",
-      "puesto": "Desarrollador de Soluciones Smart Home",
-      "sueldo": "2500000 - 3100000 CLP/mensual",
-      "horario": "9:00 - 18:00",
-      "detalles": "Desarrollo de aplicaciones para la automatización del hogar.",
-      "preguntas": [
-        "¿Qué tecnologías has utilizado en proyectos de smart home?",
-        "Descríbeme un proyecto de automatización del hogar en el que hayas trabajado.",
-        "¿Cómo manejas la seguridad en soluciones smart home?"
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "empresa": "Tech Innovators",
+    "modalidad": "Remoto",
+    "ubicacion": "Santiago, Chile",
+    "puesto": "Desarrollador Frontend",
+    "sueldo": "1800000 - 2300000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Responsable del desarrollo y mantenimiento de aplicaciones web.",
+    "preguntas": [
+      "¿Cómo te mantienes actualizado con las nuevas tecnologías frontend?",
+      "Descríbenos un proyecto reciente en el que hayas trabajado.",
+      "¿Cómo manejas el trabajo bajo presión?"
+    ]
+  },
+  {
+    "id": 2,
+    "empresa": "Data Insights Corp",
+    "modalidad": "Híbrido",
+    "ubicacion": "Valparaíso, Chile",
+    "puesto": "Data Science",
+    "sueldo": "2500000 - 3200000 CLP/mensual",
+    "horario": "8:00 - 17:00",
+    "tipo": ["Profesional"],
+    "detalles": "Análisis de grandes volúmenes de datos para obtener insights accionables.",
+    "preguntas": [
+      "¿Cuál es tu experiencia con técnicas de machine learning?",
+      "Descríbeme un proyecto de data science en el que hayas trabajado.",
+      "¿Cómo manejas los datos faltantes en un conjunto de datos?"
+    ]
+  },
+  {
+    "id": 3,
+    "empresa": "SoftWare Solutions",
+    "modalidad": "Remoto",
+    "ubicacion": "Concepción, Chile",
+    "puesto": "Desarrollador Backend",
+    "sueldo": "2000000 - 2500000 CLP/mensual",
+    "horario": "9:00 - 17:30",
+    "tipo": ["Industrial"],
+    "detalles": "Desarrollo de APIs y servicios backend.",
+    "preguntas": [
+      "¿Qué frameworks de backend has utilizado?",
+      "Descríbeme un desafío técnico que enfrentaste y cómo lo resolviste.",
+      "¿Cómo manejas la escalabilidad en una aplicación backend?"
+    ]
+  },
+  {
+    "id": 4,
+    "empresa": "HealthTech Solutions",
+    "modalidad": "Remoto",
+    "ubicacion": "Viña del Mar, Chile",
+    "puesto": "Ingeniero de Datos",
+    "sueldo": "2200000 - 2800000 CLP/mensual",
+    "horario": "10:00 - 19:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Diseño y mantenimiento de pipelines de datos.",
+    "preguntas": [
+      "¿Cuál es tu experiencia con herramientas ETL?",
+      "¿Cómo aseguras la calidad de los datos en tus proyectos?",
+      "Descríbeme una situación en la que tuviste que optimizar un pipeline de datos."
+    ]
+  },
+  {
+    "id": 5,
+    "empresa": "E-Commerce Corp",
+    "modalidad": "Híbrido",
+    "ubicacion": "Antofagasta, Chile",
+    "puesto": "Desarrollador Full Stack",
+    "sueldo": "2400000 - 3000000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Desarrollo y mantenimiento de aplicaciones web completas.",
+    "preguntas": [
+      "¿Qué tecnologías frontend y backend has utilizado?",
+      "Descríbeme un proyecto full stack en el que hayas trabajado.",
+      "¿Cómo manejas la integración de frontend y backend?"
+    ]
+  },
+  {
+    "id": 6,
+    "empresa": "BankTech",
+    "modalidad": "Presencial",
+    "ubicacion": "Santiago, Chile",
+    "puesto": "Arquitecto de Software",
+    "sueldo": "3000000 - 4000000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Profesional"],
+    "detalles": "Diseño de arquitectura de sistemas y supervisión de su implementación.",
+    "preguntas": [
+      "¿Cuál es tu experiencia en diseño de arquitectura de software?",
+      "Descríbeme un desafío arquitectónico que enfrentaste y cómo lo resolviste.",
+      "¿Cómo te aseguras de que una arquitectura sea escalable y mantenible?"
+    ]
+  },
+  {
+    "id": 7,
+    "empresa": "FinTech Innovators",
+    "modalidad": "Remoto",
+    "ubicacion": "Valdivia, Chile",
+    "puesto": "Ingeniero DevOps",
+    "sueldo": "2600000 - 3200000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Profesional"],
+    "detalles": "Automatización de procesos y mantenimiento de infraestructura en la nube.",
+    "preguntas": [
+      "¿Qué herramientas de CI/CD has utilizado?",
+      "Descríbeme un proyecto en el que hayas implementado una solución DevOps.",
+      "¿Cómo manejas la seguridad en un entorno DevOps?"
+    ]
+  },
+  {
+    "id": 8,
+    "empresa": "BioTech Solutions",
+    "modalidad": "Híbrido",
+    "ubicacion": "Talca, Chile",
+    "puesto": "Analista de Datos",
+    "sueldo": "2200000 - 2800000 CLP/mensual",
+    "horario": "8:00 - 17:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Análisis de datos para la toma de decisiones estratégicas.",
+    "preguntas": [
+      "¿Qué herramientas de análisis de datos has utilizado?",
+      "Descríbeme un proyecto de análisis de datos en el que hayas trabajado.",
+      "¿Cómo presentas tus hallazgos a personas no técnicas?"
+    ]
+  },
+  {
+    "id": 9,
+    "empresa": "EduTech Innovators",
+    "modalidad": "Remoto",
+    "ubicacion": "Arica, Chile",
+    "puesto": "Desarrollador de Aplicaciones Móviles",
+    "sueldo": "2300000 - 2900000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Desarrollo y mantenimiento de aplicaciones móviles para plataformas iOS y Android.",
+    "preguntas": [
+      "¿Qué lenguajes de programación móviles has utilizado?",
+      "Descríbeme un proyecto de aplicaciones móviles en el que hayas trabajado.",
+      "¿Cómo manejas la compatibilidad entre diferentes versiones de SO móvil?"
+    ]
+  },
+  {
+    "id": 10,
+    "empresa": "GreenTech Solutions",
+    "modalidad": "Híbrido",
+    "ubicacion": "Temuco, Chile",
+    "puesto": "Ingeniero de Software",
+    "sueldo": "2500000 - 3200000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Desarrollo de software para soluciones ecológicas y sostenibles.",
+    "preguntas": [
+      "¿Qué metodologías ágiles has utilizado?",
+      "Descríbeme un proyecto de software en el que hayas trabajado.",
+      "¿Cómo manejas los requisitos cambiantes en un proyecto de software?"
+    ]
+  },
+  {
+    "id": 11,
+    "empresa": "CloudTech Services",
+    "modalidad": "Remoto",
+    "ubicacion": "Puerto Montt, Chile",
+    "puesto": "Ingeniero de Nube",
+    "sueldo": "2700000 - 3300000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Profesional"],
+    "detalles": "Implementación y mantenimiento de soluciones en la nube.",
+    "preguntas": [
+      "¿Qué proveedores de servicios en la nube has utilizado?",
+      "Descríbeme un proyecto en la nube en el que hayas trabajado.",
+      "¿Cómo aseguras la disponibilidad y la seguridad en la nube?"
+    ]
+  },
+  {
+    "id": 12,
+    "empresa": "CyberSecurity Ltd.",
+    "modalidad": "Híbrido",
+    "ubicacion": "Iquique, Chile",
+    "puesto": "Especialista en Seguridad Informática",
+    "sueldo": "2800000 - 3500000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Profesional"],
+    "detalles": "Protección de sistemas y datos contra amenazas de seguridad.",
+    "preguntas": [
+      "¿Cuál es tu experiencia con herramientas de seguridad informática?",
+      "Descríbeme un incidente de seguridad que hayas manejado.",
+      "¿Cómo mantienes tus conocimientos actualizados en seguridad informática?"
+    ]
+  },
+  {
+    "id": 13,
+    "empresa": "AI Innovations",
+    "modalidad": "Remoto",
+    "ubicacion": "La Serena, Chile",
+    "puesto": "Ingeniero de Machine Learning",
+    "sueldo": "3000000 - 3700000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Profesional"],
+    "detalles": "Desarrollo y entrenamiento de modelos de machine learning.",
+    "preguntas": [
+      "¿Qué frameworks de machine learning has utilizado?",
+      "Descríbeme un proyecto de machine learning en el que hayas trabajado.",
+      "¿Cómo manejas el overfitting en tus modelos?"
+    ]
+  },
+  {
+    "id": 14,
+    "empresa": "IoT Solutions",
+    "modalidad": "Híbrido",
+    "ubicacion": "Rancagua, Chile",
+    "puesto": "Desarrollador IoT",
+    "sueldo": "2400000 - 3000000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Profesional"],
+    "detalles": "Desarrollo de soluciones IoT para la industria.",
+    "preguntas": [
+      "¿Qué protocolos de comunicación IoT has utilizado?",
+      "Descríbeme un proyecto IoT en el que hayas trabajado.",
+      "¿Cómo manejas la seguridad en dispositivos IoT?"
+    ]
+  },
+  {
+    "id": 15,
+    "empresa": "Blockchain Innovators",
+    "modalidad": "Remoto",
+    "ubicacion": "Copiapó, Chile",
+    "puesto": "Desarrollador Blockchain",
+    "sueldo": "2600000 - 3300000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Profesional"],
+    "detalles": "Desarrollo de soluciones basadas en blockchain.",
+    "preguntas": [
+      "¿Qué plataformas de blockchain has utilizado?",
+      "Descríbeme un proyecto de blockchain en el que hayas trabajado.",
+      "¿Cómo manejas la escalabilidad en una solución blockchain?"
+    ]
+  },
+  {
+    "id": 16,
+    "empresa": "SmartTech",
+    "modalidad": "Híbrido",
+    "ubicacion": "Punta Arenas, Chile",
+    "puesto": "Desarrollador de Software Embebido",
+    "sueldo": "2300000 - 2900000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Desarrollo de software para dispositivos embebidos.",
+    "preguntas": [
+      "¿Qué lenguajes de programación para software embebido has utilizado?",
+      "Descríbeme un proyecto de software embebido en el que hayas trabajado.",
+      "¿Cómo manejas las limitaciones de hardware en dispositivos embebidos?"
+    ]
+  },
+  {
+    "id": 17,
+    "empresa": "Quantum Computing Solutions",
+    "modalidad": "Remoto",
+    "ubicacion": "Santiago, Chile",
+    "puesto": "Investigador en Computación Cuántica",
+    "sueldo": "3500000 - 4500000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Profesional"],
+    "detalles": "Investigación y desarrollo en el campo de la computación cuántica.",
+    "preguntas": [
+      "¿Qué experiencia tienes en algoritmos cuánticos?",
+      "Descríbeme un proyecto de investigación en computación cuántica en el que hayas trabajado.",
+      "¿Cómo crees que la computación cuántica impactará la industria en el futuro?"
+    ]
+  },
+  {
+    "id": 18,
+    "empresa": "AgriTech Solutions",
+    "modalidad": "Híbrido",
+    "ubicacion": "Chillán, Chile",
+    "puesto": "Ingeniero de Software para Agricultura",
+    "sueldo": "2200000 - 2800000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Desarrollo de software para soluciones agrícolas inteligentes.",
+    "preguntas": [
+      "¿Qué tecnologías has utilizado en proyectos de agrotecnología?",
+      "Descríbeme un proyecto de software para agricultura en el que hayas trabajado.",
+      "¿Cómo manejas la integración de hardware y software en soluciones agrícolas?"
+    ]
+  },
+  {
+    "id": 19,
+    "empresa": "Bioinformatics Corp",
+    "modalidad": "Remoto",
+    "ubicacion": "Valparaíso, Chile",
+    "puesto": "Bioinformático",
+    "sueldo": "2800000 - 3500000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Profesional"],
+    "detalles": "Análisis de datos biológicos utilizando técnicas informáticas.",
+    "preguntas": [
+      "¿Qué experiencia tienes en análisis de secuencias biológicas?",
+      "Descríbeme un proyecto de bioinformática en el que hayas trabajado.",
+      "¿Cómo manejas la calidad y la integridad de los datos biológicos?"
+    ]
+  },
+  {
+    "id": 20,
+    "empresa": "Gaming Innovators",
+    "modalidad": "Híbrido",
+    "ubicacion": "Santiago, Chile",
+    "puesto": "Desarrollador de Videojuegos",
+    "sueldo": "2400000 - 3000000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Desarrollo y mantenimiento de videojuegos para múltiples plataformas.",
+    "preguntas": [
+      "¿Qué motores de videojuegos has utilizado?",
+      "Descríbeme un proyecto de videojuegos en el que hayas trabajado.",
+      "¿Cómo manejas la optimización del rendimiento en videojuegos?"
+    ]
+  },
+  {
+    "id": 21,
+    "empresa": "Robotics Corp",
+    "modalidad": "Remoto",
+    "ubicacion": "Temuco, Chile",
+    "puesto": "Ingeniero de Robótica",
+    "sueldo": "3000000 - 3700000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Desarrollo y programación de robots para diversas aplicaciones.",
+    "preguntas": [
+      "¿Qué lenguajes de programación para robótica has utilizado?",
+      "Descríbeme un proyecto de robótica en el que hayas trabajado.",
+      "¿Cómo manejas la integración de sensores y actuadores en robots?"
+    ]
+  },
+  {
+    "id": 22,
+    "empresa": "EnergyTech Solutions",
+    "modalidad": "Híbrido",
+    "ubicacion": "Calama, Chile",
+    "puesto": "Ingeniero de Software para Energía",
+    "sueldo": "2600000 - 3200000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Desarrollo de software para soluciones de energía renovable.",
+    "preguntas": [
+      "¿Qué experiencia tienes en proyectos de energía renovable?",
+      "Descríbeme un proyecto de software para energía en el que hayas trabajado.",
+      "¿Cómo manejas la integración de datos de múltiples fuentes en soluciones de energía?"
+    ]
+  },
+  {
+    "id": 23,
+    "empresa": "SmartHome Technologies",
+    "modalidad": "Remoto",
+    "ubicacion": "Santiago, Chile",
+    "puesto": "Desarrollador de Soluciones Smart Home",
+    "sueldo": "2500000 - 3100000 CLP/mensual",
+    "horario": "9:00 - 18:00",
+    "tipo": ["Industrial", "Profesional"],
+    "detalles": "Desarrollo de aplicaciones para la automatización del hogar.",
+    "preguntas": [
+      "¿Qué tecnologías has utilizado en proyectos de smart home?",
+      "Descríbeme un proyecto de automatización del hogar en el que hayas trabajado.",
+      "¿Cómo manejas la seguridad en soluciones smart home?"
+    ]
+  }
+]
