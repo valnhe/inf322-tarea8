@@ -13,7 +13,6 @@ import Logo from '../assets/logo'
 const Layout = () => {
 
   const [active, setActive] = useState(false);
-  const [show, setShow] = useState(false);
 
   return (
     <BrowserRouter>
