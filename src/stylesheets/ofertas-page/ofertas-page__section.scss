@@ -1,9 +1,10 @@
 .ofertas-page__section {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(
         auto-fit,
         minmax(
-        200px,
+        220px,
         1fr
         )
     );
