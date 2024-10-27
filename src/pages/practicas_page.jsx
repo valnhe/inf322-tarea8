@@ -21,7 +21,7 @@ export const PracticasPage = () => {
       <Wrapper titulo="Práctica Profesional" estado="No iniciada"> 
         <p className='practicas-page__message'>Felicidades, has terminado exitosamente tu <strong>Práctica Industrial</strong>, el próximo paso es la del tipo <strong>Profesional</strong>.</p>
         <div className='practicas-page__buttons'>
-          <Button text="Inscribir práctica" estado={true} />
+          <Button text="Inscribir práctica" estado={true} onClick={() => alert("Funcionalidad que se sale de nuestro conocimiento de trabajo")}/>
           <div>
             <Link to="/ofertas" className='practicas-page__link'>
               Buscar práctica
