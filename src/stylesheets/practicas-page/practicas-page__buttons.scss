@@ -1,0 +1,16 @@
+.practicas-page__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  div {
+    width: 18%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #858585;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }	
+}
