@@ -8,6 +8,10 @@
     transition: background-color 0.3s;
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    flex: 0 0 auto;
+    height: fit-content;
 
     &:hover {
         background-color: #FF6D00;
@@ -23,6 +27,9 @@
         transition: background-color 0.3s;
         text-transform: uppercase;
         font-weight: 500;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        flex: 0 0 auto;
 
         &:hover {
             background-color: #424242;

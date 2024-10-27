@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Button = ({text, onClick, estado}) => {
+export const Button = ({text, onClick = () => {}, estado}) => {
 
   const clase = estado ? 'button' : 'button--disabled';
 
