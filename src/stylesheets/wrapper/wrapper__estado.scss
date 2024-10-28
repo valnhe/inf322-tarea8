@@ -1,0 +1,15 @@
+.wrapper__estado {
+    background-color: antiquewhite;
+
+    &--aprobada {
+        color: #4CAE50;
+    }
+
+    &--noiniciada {
+        color: #F44336;
+    }
+
+    &--enproceso {
+        color: #FFCF52;
+    }
+}

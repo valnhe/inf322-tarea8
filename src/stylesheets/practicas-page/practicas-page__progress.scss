@@ -1,0 +1,17 @@
+.practicas-page__progress {
+  background-color: #181818;
+  border-radius: 40px;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+
+  div {
+    background: rgb(230,81,0);
+    background: linear-gradient(90deg, rgba(230,81,0,1) 0%, rgba(255,109,0,1) 35%, rgba(255,169,0,1) 100%);
+    border-radius: 20px;
+    height: 90%;
+    width: 43%;
+    display: block;
+    color: transparent;
+  }
+}

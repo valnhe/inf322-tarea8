@@ -1,0 +1,35 @@
+.practicas-page__about {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+        220px,
+        1fr
+        )
+    );
+    gap: 1rem;
+
+    div {
+      display: flex;
+      gap: 0.5rem;
+      text-align: center;
+    }
+
+    section {
+      background-color: #181818;
+      padding: 20px;
+      border-radius: 10px;
+
+      h5 {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 10px;
+      }
+  
+      p {
+        margin-left: 8px;
+        margin-top: -5px;
+      }
+    }
+}

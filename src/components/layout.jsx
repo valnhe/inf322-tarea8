@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import HomePage from '../pages/home_page'
+import PracticasPage from '../pages/practicas_page'
 import OfertasPage from '../pages/ofertas_page'
+import OfertasDetailsPage from '../pages/oferta-details_page'
 import PostulacionesPage from '../pages/postulaciones_page'
 
 import NavBar from '../components/nav_bar'
@@ -12,10 +13,6 @@ import Logo from '../assets/logo'
 const Layout = () => {
 
   const [active, setActive] = useState(false);
-
-
-  const [show, setShow] = useState(false);
-
 
   return (
     <BrowserRouter>
@@ -36,10 +33,11 @@ const Layout = () => {
           </nav>
         </aside>
     
-        <div className='layout__page'>
+        <div className={`${active === true ? 'layout__page--active' : 'layout__page'}`}>
           <Routes>
-            <Route path='/' element={<HomePage />} />
+            <Route path='/' element={<PracticasPage />} />
             <Route path='/ofertas' element={<OfertasPage />} />
+            <Route path='/ofertas/:id' element={<OfertasDetailsPage />} />
             <Route path='/postulaciones' element={<PostulacionesPage />} />
           </Routes>
         </div>

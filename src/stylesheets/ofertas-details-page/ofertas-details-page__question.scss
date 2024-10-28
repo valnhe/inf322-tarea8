@@ -1,0 +1,23 @@
+.ofertas-details-page__question {
+    margin: 15px 10px 15px;
+
+    p {
+        margin: 5px 0px;
+    }
+
+    textarea {
+        background-color: #424242;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 15px;
+        box-sizing: border-box;
+        color: #fff;
+        height: 100px;
+    }
+
+    textarea::placeholder {
+        color: #ccc;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,40 @@
+.button {
+    background-color: #E65100;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    flex: 0 0 auto;
+    height: fit-content;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #FF6D00;
+    }
+
+    &--disabled {
+        background-color: #353535;
+        color: #ccd7d1;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 80px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        flex: 0 0 auto;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #424242;
+        }
+    }
+}

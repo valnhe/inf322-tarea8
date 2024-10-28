@@ -1,0 +1,20 @@
+.card-ofertas__link {
+    display: block;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    background-color: #E65100;
+    color: #fff;
+    font: inherit;
+    border: none;
+    padding: 0.4rem 0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    will-change: transform;
+    text-decoration: none;
+}
+
+.card-ofertas__link:hover {
+    background-color: #FF6D00;
+    transform: scale(0.98);
+}
