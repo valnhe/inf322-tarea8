@@ -1,35 +1,38 @@
-# frontend-sample-app
+<div align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png" height="100px"/> 
+<h3>
+Sistemas de Prácticas USM
+</h3>
+</div>
 
-Basic Frontend Development Environment to start an app with Webpack
+## 💼 Grupo de trabajo
+- Nicolás Armijo Calquín- ROL: 202173004-4
+- Valentina Castillo Valdés - ROL: 202021006-3
+- Gaspar Navarro Cornejo - ROL: 202173003-6
 
-This repo includes `Webpack` to start an environment to build frontend views using `React`.
-
-### Requirements
-
-- Node >= 16.13.1
-- npm >= 8.1.2
-
-### Quick start
-
-Install dependences
+## 🛠️ Quick start
+- Instalar las depedencias
 
 ```
 npm install
 ```
 
-Launch environment
+- Correr el ambiente de desarrollo
 
 ```
 npm run dev
 ```
 
-Now you can open http://localhost:5050
+- Tras los pasos anteriores, se puede abrir http://localhost:5050 para visualizar el proyecto.
 
-### Packages included
+## 🖥️ Requerimientos
+- Una versión de Node igual o superior a la 16.13.1
+- Una versión de npm igual o superior a la 8.1.2
 
+### 📦 Paquetes incluidos
 - [Webpack](https://webpack.js.org/)
 - [React Router](https://reactrouter.com/en/main)
 
-### About stylesheets
+### 🎨 Sobre los stylesheets
 
-- Sample stylesheets were written using the [BEM](https://getbem.com/) structure
+- Los estilos fueron escritos escritos utilizando la estructura [BEM](https://getbem.com/).
