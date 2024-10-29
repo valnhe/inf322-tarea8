@@ -35,7 +35,7 @@ const Layout = () => {
     
         <div className={`${active === true ? 'layout__page--active' : 'layout__page'}`}>
           <Routes>
-            <Route path='/' element={<PracticasPage />} />
+            <Route path='*' element={<PracticasPage />} />
             <Route path='/ofertas' element={<OfertasPage />} />
             <Route path='/ofertas/:id' element={<OfertasDetailsPage />} />
             <Route path='/postulaciones' element={<PostulacionesPage />} />
