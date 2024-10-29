@@ -6,7 +6,7 @@ Sistemas de Prácticas USM
 </div>
 
 ## 💼 Grupo de trabajo
-- Nicolás Armijo Calquín- ROL: 202173004-4
+- Nicolás Armijo Calquín - ROL: 202173004-4
 - Valentina Castillo Valdés - ROL: 202021006-3
 - Gaspar Navarro Cornejo - ROL: 202173003-6
 
