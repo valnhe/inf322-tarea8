@@ -1,14 +1,22 @@
 import React from 'react'
 
-export const Button = ({text, onClick = () => {}, estado}) => {
+export const Button = ({text, onClick = () => {}, estado = 'no'}) => {
 
-  const clase = estado ? 'button' : 'button--disabled';
+  const clase = estado ? 'button' : (!estado ? 'button--disabled' : 'button--nolink') ;
 
-  return (
-    <button className={clase} onClick={onClick}>
-        {text}
-    </button>
-  )
+  if (estado === 'no') {
+    return (
+      <button className='button--nolink' onClick={onClick}>
+          {text}
+      </button>
+    )
+  } else {
+    return (
+      <button className={clase} onClick={onClick}>
+          {text}
+      </button>
+    )
+  }
 }
 
 export default Button

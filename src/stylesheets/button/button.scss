@@ -37,4 +37,20 @@
             background-color: #424242;
         }
     }
+
+    &--nolink {
+        background-color: #353535;
+        color: #707472;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 80px;
+        transition: background-color 0.3s;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        flex: 0 0 auto;
+        text-decoration: none;
+
+    }
 }
